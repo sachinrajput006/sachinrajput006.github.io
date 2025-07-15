@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachin Rajput - Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>Sachin Rajput</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-animation">
+            <div class="bg-shape shape-1"></div>
+            <div class="bg-shape shape-2"></div>
+            <div class="bg-shape shape-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-greeting">👋 Hello, I'm</div>
+                <h1 class="hero-title">
+                    <span class="title-line">Sachin</span>
+                    <span class="title-line highlight">Rajput</span>
+                </h1>
+                <h2 class="hero-subtitle">
+                    <span class="typing-text">Full Stack Developer</span>
+                    <span class="cursor">|</span>
+                </h2>
+                <p class="hero-description">
+                    I create <span class="text-highlight">beautiful</span> and <span
+                        class="text-highlight">functional</span> web applications
+                    using modern technologies like React, Node.js, Django, and PostgreSQL.
+                    Let's build something amazing together!
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">2+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">8+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Technologies</div>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Let's Work Together</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">
+                        <span>View My Work</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="mailto:sachinrajput30881@gmail.com" class="social-link" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:+919870941367" class="social-link" title="Phone">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                    <a href="#" class="social-link" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-glow"></div>
+                    <div class="profile-avatar">
+                        <img src="attached_assets/sachinraj_1752492592750.jpg" alt="Sachin Rajput"
+                            class="profile-image">
+                    </div>
+                    <div class="floating-elements">
+                        <div class="floating-icon" data-tech="react">
+                            <i class="fab fa-react"></i>
+                            <span class="tech-tooltip">React</span>
+                        </div>
+                        <div class="floating-icon" data-tech="js">
+                            <i class="fab fa-js-square"></i>
+                            <span class="tech-tooltip">JavaScript</span>
+                        </div>
+                        <div class="floating-icon" data-tech="python">
+                            <i class="fab fa-python"></i>
+                            <span class="tech-tooltip">Python</span>
+                        </div>
+                        <div class="floating-icon" data-tech="node">
+                            <i class="fab fa-node-js"></i>
+                            <span class="tech-tooltip">Node.js</span>
+                        </div>
+                        <div class="floating-icon" data-tech="django">
+                            <i class="fab fa-python"></i>
+                            <span class="tech-tooltip">Django</span>
+                        </div>
+                        <div class="floating-icon" data-tech="postgresql">
+                            <i class="fas fa-database"></i>
+                            <span class="tech-tooltip">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-text">Scroll Down</div>
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Professional Summary</h3>
+                    <p>
+                        Full Stack Developer skilled in both frontend and backend development.
+                        Experienced in building responsive web apps using React, Node.js, Express, and Django.
+                        Passionate about clean code, problem-solving, and creating user-friendly solutions.
+                    </p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h4>2+</h4>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h4>5+</h4>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h4>10+</h4>
+                            <p>Technologies</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">C</span>
+                        <span class="skill-item">C++</span>
+                        <span class="skill-item">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-layer-group"></i> Frameworks & Libraries</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Django</span>
+                        <span class="skill-item">React</span>
+                        <span class="skill-item">Bootstrap</span>
+                        <span class="skill-item">TailwindCSS</span>
+                        <span class="skill-item">Node.js</span>
+                        <span class="skill-item">Express</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">VS Code</span>
+                        <span class="skill-item">Postman</span>
+                        <span class="skill-item">JWT</span>
+                        <span class="skill-item">Djoser</span>
+                        <span class="skill-item">Linux</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Database Systems</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">PostgreSQL</span>
+                        <span class="skill-item">MySQL</span>
+                        <span class="skill-item">MongoDB</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">May 2025 - July 2025</div>
+                    <div class="timeline-content">
+                        <h3>Internship - CodSoft</h3>
+                        <p>
+                            Completed a two-month internship where I worked on multiple real-world projects that
+                            enhanced my full-stack development skills. Built applications including Calculator,
+                            Contact Book, Password Generator, Rock-Paper game, and To-Do List using modern web
+                            technologies. Each project strengthened my understanding of front-end and back-end
+                            development, logic building, and UI/UX principles.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">React</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Food Delivery App -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Food Delivery Web App</h3>
+                        <span class="project-date">July 2025</span>
+                    </div>
+                    <p class="project-description">
+                        A full-stack food ordering system with user authentication, cart functionality, and real-time
+                        search.
+                    </p>
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>User & Admin Dashboard</li>
+                            <li>Food Categories</li>
+                            <li>Add to Cart functionality</li>
+                            <li>Order Summary</li>
+                            <li>Search Filter</li>
+                            <li>Redux-powered state management</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Redux</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Express</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">TailwindCSS</span>
+                        <span class="tech-tag">JWT</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Learning Management System -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Learning Management System (LMS)</h3>
+                        <span class="project-date">June 2025</span>
+                    </div>
+                    <p class="project-description">
+                        A comprehensive LMS platform built with Django for educational institutions to manage courses,
+                        students, and assessments.
+                    </p>
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Course Management & Enrollment</li>
+                            <li>Student Progress Tracking</li>
+                            <li>Assignment Submission System</li>
+                            <li>Quiz & Assessment Tools</li>
+                            <li>Grade Management</li>
+                            <li>Video Lecture Integration</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Django</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Bootstrap</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML/CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+
+                <!-- E-Commerce Platform -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>E-Commerce Platform</h3>
+                        <span class="project-date">May 2025</span>
+                    </div>
+                    <p class="project-description">
+                        A full-featured e-commerce platform built with Django, featuring product management, payment
+                        integration, and order tracking.
+                    </p>
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Product Catalog & Search</li>
+                            <li>Shopping Cart & Wishlist</li>
+                            <li>Payment Gateway Integration</li>
+                            <li>Order Management System</li>
+                            <li>Customer Reviews & Ratings</li>
+                            <li>Admin Dashboard</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Django</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Stripe API</span>
+                        <span class="tech-tag">Bootstrap</span>
+                        <span class="tech-tag">jQuery</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+
+                <!-- MLM System -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Multi-Level Marketing (MLM) System</h3>
+                        <span class="project-date">April 2025</span>
+                    </div>
+                    <p class="project-description">
+                        A sophisticated MLM platform with React frontend and Django backend, featuring network
+                        visualization and commission tracking.
+                    </p>
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Network Tree Visualization</li>
+                            <li>Commission Calculation Engine</li>
+                            <li>Member Registration & KYC</li>
+                            <li>Payout Management System</li>
+                            <li>Real-time Analytics Dashboard</li>
+                            <li>Binary & Matrix Plan Support</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Django REST</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">D3.js</span>
+                        <span class="tech-tag">TailwindCSS</span>
+                        <span class="tech-tag">JWT</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education & Certifications</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>B.tech (Computer Science)</h3>
+                    <p class="institution">J.S. University Shikohabad</p>
+                    <p class="duration">Apr 2022 – Apr 2026</p>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>DSA in Python</h3>
+                    <p class="institution">MSK Institute</p>
+                    <p class="duration">Mar 2024 – Aug 2024</p>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Web Full Stack Developer</h3>
+                    <p class="institution">MSK Institute</p>
+                    <p class="duration">Aug 2024 – Aug 2025</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together!</h3>
+                    <p>
+                        I'm always interested in new opportunities and exciting projects.
+                        Feel free to reach out if you'd like to discuss potential collaborations.
+                    </p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:sachinrajput30881@gmail.com">sachinrajput30881@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+919870941367">+91 98709413674</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <a href="#">sachinrajput006</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <form class="contact-form" onsubmit="sendToWhatsApp(event)">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message on WhatsApp</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript for WhatsApp Message -->
+    <script>
+        function sendToWhatsApp(event) {
+            event.preventDefault(); // Stop form from submitting normally
+
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const subject = document.getElementById('subject').value.trim();
+            const message = document.getElementById('message').value.trim();
+
+            const greeting = `Hello Sachin, I visited your portfolio and would like to get in touch.%0A`;
+            const formData = `Name: ${name}%0AEmail: ${email}%0ASubject: ${subject}%0AMessage: ${message}`;
+
+            const fullMessage = greeting + formData;
+            const phoneNumber = '919870941367'; // WhatsApp number without '+'
+
+            const whatsappURL = `https://wa.me/${phoneNumber}?text=${fullMessage}`;
+            window.open(whatsappURL, '_blank');
+        }
+    </script>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <!-- About -->
+            <div class="footer-section">
+                <h3>Sachin Rajput</h3>
+                <p>Full Stack Developer passionate about creating innovative web solutions.</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <p><i class="fas fa-envelope"></i> sachinrajput30881@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +91 98709 41367</p>
+                <p><i class="fas fa-map-marker-alt"></i> Shikohabad, India</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Sachin Rajput. All rights reserved. Built with 💜 and lots of ☕</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
